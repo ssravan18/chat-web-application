@@ -106,7 +106,7 @@ def client(hostname, port):
 def main():
     print("Server or Client")
     x = input("Enter Option: ")
-    hostname = input("Enter Ip address: ")
+    hostname = input("Enter hostname/Ip address: ")
     port = int(input("Enter Port number: "))
     if (x == 'Server'):
         server(hostname, port)
