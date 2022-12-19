@@ -96,7 +96,7 @@ def client(hostname, port):
     t = threading.Thread(target=recieveMsgs, args=(client_socket,))
     t.start()
     while True:
-        msg = input(f"{name}")
+        msg = input(f"{name}:")
         client_socket.send(msg.encode())
         if (msg == "bye"):
             break
