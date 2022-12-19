@@ -104,7 +104,7 @@ def client(hostname, port):
 
 
 def main():
-    print("Server or Client")
+    print("Enter an option\n1.Server\n2.Client")
     x = int(input("Enter Option: "))
     hostname = "localhost"
     port = 9999
