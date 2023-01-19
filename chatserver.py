@@ -84,7 +84,7 @@ def recieveMsgs(client_socket):
                 client_socket.close()
                 break
     except:
-        pass
+        continue
 
 
 def client(hostname, port):
